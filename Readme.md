@@ -48,7 +48,8 @@ according to your preferences.
 * [Method chaining](#method-chaining)
 
 ### Comments
-* [Use slashes for comments](#use-slashes-for-comments)
+* [Use slashes for simple comments](#use-slashes-for-comments)
+* [Use double-asterisk comment for function comments](#use-double-asterisk-for-function-comments)
 
 ### Miscellaneous
 * [Object.freeze, Object.preventExtensions, Object.seal, with, eval](#objectfreeze-objectpreventextensions-objectseal-with-eval)
@@ -476,7 +477,7 @@ User.findOne({ name: 'foo' }).populate('bar')
 
 ## Comments
 
-### Use slashes for comments
+### Use slashes for simple comments
 
 Use slashes for both single line and multi line comments. Try to write
 comments that explain higher level mechanisms or clarify difficult
@@ -488,11 +489,18 @@ segments of your code. Don't use comments to restate trivial things.
 // 'ID_SOMETHING=VALUE' -> ['ID_SOMETHING=VALUE', 'SOMETHING', 'VALUE']
 var matches = item.match(/ID_([^\n]+)=([^\n]+)/));
 
-// This function has a nasty side effect where a failure to increment a
-// redis counter used for statistics will cause an exception. This needs
-// to be fixed in a later iteration.
+
+### Use double-asterisk for function comments
+
+/** 
+* function description
+* 
+* @param paramType id paramDescription
+* @param paramType cb paramDescription
+* @return returnType returnDescription
+*/
 function loadUser(id, cb) {
-  // ...
+  //...
 }
 
 var isSessionValid = (session.expires < Date.now());
