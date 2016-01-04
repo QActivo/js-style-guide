@@ -1,3 +1,5 @@
+# JS Style Guide
+
 * [Node.js Style Guide](#nodejs-style-guide)
 * [Angular Style Guide](#angular-styleguide)
 
