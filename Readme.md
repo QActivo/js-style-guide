@@ -37,7 +37,6 @@ according to your preferences.
 
 ### Conditionals
 * [Use the === operator](#use-the--operator)
-* [Use multi-line ternary operator](#use-multi-line-ternary-operator)
 * [Use descriptive conditions](#use-descriptive-conditions)
 
 ### Functions
@@ -286,24 +285,6 @@ if (a == '') {
 ```
 
 [comparisonoperators]: https://developer.mozilla.org/en/JavaScript/Reference/Operators/Comparison_Operators
-
-### Use multi-line ternary operator
-
-The ternary operator should not be used on a single line. Split it up into multiple lines instead.
-
-*Right:*
-
-```js
-var foo = (a === b)
-  ? 1
-  : 2;
-```
-
-*Wrong:*
-
-```js
-var foo = (a === b) ? 1 : 2;
-```
 
 ### Use descriptive conditions
 
