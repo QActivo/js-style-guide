@@ -108,7 +108,7 @@ var foo = "bar";
 
 ### Opening braces go on the same line
 
-Your opening braces go on the same line as the statement.
+Your opening braces go on the same line as the statement. Also, notice the use of whitespace before and after the condition statement.
 
 *Right:*
 
@@ -125,9 +125,21 @@ if (true)
 {
   console.log('losing');
 }
+
+if (true){
+  console.log('losing');
+}
+
+if(true) {
+  console.log('losing');
+}
+
+if(true){
+  console.log('losing');
+}
 ```
 
-Also, notice the use of whitespace before and after the condition statement.
+PS: If you are using sublime-text, give it a try to the *sublime conditions snippets*.
 
 ### Declare one variable per var statement
 
@@ -202,6 +214,8 @@ function BankAccount() {
 function bank_Account() {
 }
 ```
+
+PS: If you are using sublime-text, give it a try to the *sublime functions snippets*.
 
 ## Use UPPERCASE for Constants
 
