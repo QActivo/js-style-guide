@@ -47,8 +47,8 @@ according to your preferences.
 * [Method chaining](#method-chaining)
 
 ### Comments
-* [Use slashes for simple comments](#use-slashes-for-comments)
-* [Use double-asterisk for function comments](#use-double-asterisk-for-function-comments)
+* [Use slashes for simple comments](#use-slashes-for-simple-comments)
+* [Use double asterisk for function comments](#use-double-asterisk-for-function-comments)
 
 ### Miscellaneous
 * [Object.freeze, Object.preventExtensions, Object.seal, with, eval](#objectfreeze-objectpreventextensions-objectseal-with-eval)
@@ -483,10 +483,11 @@ segments of your code. Don't use comments to restate trivial things.
 ```js
 // 'ID_SOMETHING=VALUE' -> ['ID_SOMETHING=VALUE', 'SOMETHING', 'VALUE']
 var matches = item.match(/ID_([^\n]+)=([^\n]+)/));
+```
 
+### Use double asterisk for function comments
 
-### Use double-asterisk for function comments
-
+```js
 /** 
 * function description
 * 
