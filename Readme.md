@@ -1,3 +1,6 @@
+* [Node.js Style Guide](#nodejs-style-guide)
+* [Angular Style Guide](#angular-styleguide)
+
 # Node.js Style Guide
 
 This is a guide for writing consistent and aesthetically pleasing node.js code.
