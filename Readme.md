@@ -48,7 +48,7 @@ according to your preferences.
 
 ### Comments
 * [Use slashes for simple comments](#use-slashes-for-comments)
-* [Use double-asterisk comment for function comments](#use-double-asterisk-for-function-comments)
+* [Use double-asterisk for function comments](#use-double-asterisk-for-function-comments)
 
 ### Miscellaneous
 * [Object.freeze, Object.preventExtensions, Object.seal, with, eval](#objectfreeze-objectpreventextensions-objectseal-with-eval)
